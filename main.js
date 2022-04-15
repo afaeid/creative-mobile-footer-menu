@@ -4,7 +4,10 @@ var profile = document.querySelector('.profile');
 var message = document.querySelector('.message');
 var report = document.querySelector('.report');
 var setting = document.querySelector('.setting');
-
+var preLoader = document.querySelector('.loader-screen');
+window.onload = ()=>{
+  preLoader.style.display = 'none';
+}
 home.onclick = function(){
   indecetor.style.left = '4.2%';
   home.style.transform = 'translateY(-30px)';
